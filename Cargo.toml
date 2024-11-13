@@ -27,7 +27,7 @@ cb-pbs = { path = "crates/pbs" }
 cb-signer = { path = "crates/signer" }
 
 # ethereum
-alloy = { version = "0.3.6", features = [
+alloy = { version = "0.6.4", features = [
     "rpc-types-beacon",
     "serde",
     "ssz",
@@ -84,8 +84,8 @@ indexmap = "2.2.6"
 lazy_static = "1.5.0"
 bimap = { version = "0.6.3", features = ["serde"] }
 derive_more = { version = "1.0.0", features = [
-    "from",
-    "into",
-    "deref",
-    "display",
+  "from",
+  "into",
+  "deref",
+  "display",
 ] }
